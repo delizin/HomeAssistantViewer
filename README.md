@@ -19,3 +19,8 @@ Width and Height are positive integer offsets that let you reduce the size of th
 The Window is anchored to the top left corner so width decreases it on the right side and height decreases it on the bottom.
 
 Personally, I use a width offset of 220 so I can fit my Steam friends window on the right hand side of my Home Assistant dashboard.
+
+To use this software, download either the Zip or Rar archive in the Release folder, unextract or build it from source and then run the ```Home Assistant Desktop.exe``` file. I set mine to autostart on system boot so it is always available.
+
+Note, I did get a false positive from Virus Total. I assume it is has something to do with using the web browser element in a form since that could be unsafe. However, I encourage you to review the source yourself and you will see there is nothing nefarious and you can compile it from source. 
+https://www.virustotal.com/gui/file/6cefe049e6163f7b325e572aef35e01527ecb7b6fbb2b3c329809c5ce43653e5?nocache=1
